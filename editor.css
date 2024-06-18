@@ -1,0 +1,16 @@
+.top-5-wp-blogs-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.top-5-wp-blogs-item {
+    flex: 1 1 calc(33.333% - 20px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+
+.top-5-wp-blogs-item img {
+    width: 100%;
+    height: auto;
+}
